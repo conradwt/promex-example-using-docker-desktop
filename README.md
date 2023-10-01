@@ -2,8 +2,8 @@
 
 To start your Phoenix server:
 
+- Start **Prometheus** and **Grafana** with `docker compose up -d`
 - Run `mix setup` to install and setup dependencies
-- Start Prometheus and Grafana with `docker compose up -d`
 - Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
