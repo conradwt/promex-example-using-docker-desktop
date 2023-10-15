@@ -35,8 +35,7 @@ scrape_configs:
   # https://docs.docker.com/config/daemon/prometheus/
   - job_name: 'docker'
     static_configs:
-      # - targets: ['127.0.0.1:9323']
-      - targets: ['172.17.0.1:9323']
+      - targets: ['127.0.0.1:9323']
 
   #
   # Create a job for the Phoenix application.
